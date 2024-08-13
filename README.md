@@ -1,6 +1,7 @@
 # SQL-Projects
 
-##Understand the datasets
+## Understand the datasets
+
 Socioeconomic Indicators in Chicago
 Chicago Public Schools
 Chicago Crime Data
