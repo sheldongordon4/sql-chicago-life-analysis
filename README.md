@@ -2,7 +2,7 @@
 
 ## Problems
 
-Now write and execute SQL queries to solve assignment problems
+Write and execute SQL queries to solve the following problems:
 
 ### Problem 1
 
