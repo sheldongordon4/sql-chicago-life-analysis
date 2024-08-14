@@ -1,5 +1,50 @@
 # SQL-Projects
 
+## Problems
+
+Now write and execute SQL queries to solve assignment problems
+
+### Problem 1
+
+Find the total number of crimes recorded in the CRIME table.
+
+### Problem 2
+
+List community area names and numbers with per capita income less than 11000.
+
+### Problem 3
+
+List all case numbers for crimes involving minors?(children are not considered minors for the purposes of crime analysis)
+
+### Problem 4
+
+List all kidnapping crimes involving a child?
+
+### Problem 5
+
+List the kind of crimes that were recorded at schools. (No repetitions)
+
+### Problem 6
+
+List the type of schools along with the average safety score for each type.
+
+### Problem 7
+
+List 5 community areas with highest % of households below poverty line
+
+### Problem 8
+
+Which community area is most crime prone? Display the coumminty area number only.
+
+### Problem 9
+
+Use a sub-query to find the name of the community area with highest hardship index
+
+### Problem 10
+
+Use a sub-query to determine the Community Area Name with most number of crimes?
+
+
 ## Understand the datasets
 
 Socioeconomic Indicators in Chicago
@@ -29,11 +74,3 @@ This dataset reflects reported incidents of crime (with the exception of murders
 A detailed description of this dataset and the original dataset can be obtained from the Chicago Data Portal at:
 
 https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
-
-## Problems
-
-Now write and execute SQL queries to solve assignment problems
-
-### Problem 1
-
-Find the total number of crimes recorded in the CRIME table.
