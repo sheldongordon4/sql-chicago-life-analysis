@@ -6,13 +6,13 @@ Explore historical data, including census, public schools and crime data to unde
 ### Dataset Used
 
 1. Socioeconomic Indicators in Chicago: This dataset contains a selection of six socioeconomic indicators of public health significance and a “hardship index,” for each Chicago community area, for the years 2008 – 2012.
-* https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
+* [Census Data](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
 
 2. Chicago Public Schools: This dataset shows all school level performance data used to create CPS School Report Cards for the 2011-2012 school year. This dataset is provided by the city of Chicago's Data Portal.
-* https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t
+* [Public School Data](https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t)
 
 3. Chicago Crime Data: This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days.
-* https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+* [Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 
 
 ### Tools
@@ -30,3 +30,10 @@ Explore historical data, including census, public schools and crime data to unde
 - Which community area is most crime prone? Display the coumminty area number only.
 - Use a sub-query to find the name of the community area with highest hardship index
 - Use a sub-query to determine the Community Area Name with most number of crimes?
+
+### Results/Findings
+- Riverdale and Fuller Park are among the communities with the lowest per capita income: $8,201 and $10,432 respectively.
+- High school are generally safer than middle and even elementary schools.
+- Types of crimes committed on school grounds: battery, criminal damage, narcotics, assault, criminal trespass, public peace violation.
+- Riverdale has the highest hardship score of all the communities in Chicago. 
+- Austin is the most crime prone community.
