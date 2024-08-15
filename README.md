@@ -19,7 +19,7 @@ Explore historical data, including census, public schools and crime data to unde
 * JupyterLab notebook
 * SQLite
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 - Find the total number of crimes recorded in the CRIME table.
 - List community area names and numbers with per capita income less than 11000.
 - List all case numbers for crimes involving minors?(children are not considered minors for the purposes of crime analysis)
