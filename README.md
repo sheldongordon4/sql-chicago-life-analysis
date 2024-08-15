@@ -3,7 +3,7 @@
 ## Project Overview
 Explore historical data, including census, public schools and crime data to understand life in the city of Chicago: crimes, income, safety, etc.
 
-### Dataset Used
+### Datasets Used
 
 1. Socioeconomic Indicators in Chicago: This dataset contains a selection of six socioeconomic indicators of public health significance and a “hardship index,” for each Chicago community area, for the years 2008 – 2012.
 * [Census Data](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
