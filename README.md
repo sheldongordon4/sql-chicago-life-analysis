@@ -1,7 +1,7 @@
 # SQL Project: Understanding Life in Chicago 
 
 ## Project Overview
-Explore historical data, including census, public schools and crime data to understand life in the city of Chicago: crimes, income, safety, etc.
+Explore historical data, including census, public schools and crime data, to understand life in the city of Chicago: crimes, income, safety, etc.
 
 ### Data Sources
 
