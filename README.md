@@ -31,6 +31,8 @@ Explore historical data, including census, public schools and crime data, to und
 - Use a sub-query to find the name of the community area with highest hardship index
 - Use a sub-query to determine the Community Area Name with most number of crimes?
 
+<img width="992" alt="Screenshot 2024-08-26 at 10 29 30" src="https://github.com/user-attachments/assets/3ecf14ab-bca1-46f9-ad7a-f94f9ba3db1f">
+
 ### Results/Findings
 - Riverdale and Fuller Park are among the communities with the lowest per capita income: $8,201 and $10,432 respectively.
 - High school are generally safer than middle and even elementary schools.
