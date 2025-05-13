@@ -6,15 +6,10 @@ This project explores various aspects of life in Chicago using SQL and publicly 
 As part of this exploratory data analysis, we use **SQLite** to query and combine datasets and uncover patterns in community well-being, school safety, crime distribution, and poverty.
 
 ### Datasets Used
-- **Socioeconomic Indicators (2008–2012)**
-Contains six public health-related socioeconomic metrics and a hardship index for each of Chicago's community areas.
+- **Socioeconomic Indicators (2008–2012)**: Contains six public health-related socioeconomic metrics and a hardship index for each of Chicago's community areas.
     - Fields include: per capita income, poverty rate, unemployment rate, education level, and crowding.
-- **Chicago Public Schools (2011–2012)**
-
-School-level performance data including school type, safety score, and student support indicators.
-- **Chicago Crime Data (2001–present)**
-
-Detailed crime reports (minus the most recent 7 days) including case number, primary type, location, and community area.
+- **Chicago Public Schools (2011–2012)**: School-level performance data including school type, safety score, and student support indicators.
+- **Chicago Crime Data (2001–present)**: Detailed crime reports (minus the most recent 7 days) including case number, primary type, location, and community area.
 
 ### Tools Used
 - SQLite (via JupyterLab SQL magic commands)
