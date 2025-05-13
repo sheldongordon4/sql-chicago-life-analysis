@@ -7,7 +7,6 @@ As part of this exploratory data analysis, we use **SQLite** to query and combin
 
 ### Datasets Used
 - **Socioeconomic Indicators (2008–2012)**
-
 Contains six public health-related socioeconomic metrics and a hardship index for each of Chicago's community areas.
     - Fields include: per capita income, poverty rate, unemployment rate, education level, and crowding.
 - **Chicago Public Schools (2011–2012)**
