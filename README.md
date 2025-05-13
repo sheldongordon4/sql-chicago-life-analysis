@@ -1,9 +1,52 @@
 # SQL Project: Understanding Life in Chicago 
 
 ## Project Overview
-Explore historical data, including census, public schools and crime data, to understand life in the city of Chicago: crimes, income, safety, etc.
+This project explores various aspects of life in Chicago using SQL and publicly available datasets. It brings together crime records, public school data, and socioeconomic indicators to provide insights into safety, education, income inequality, and community challenges across the city.
 
-### Data Sources
+As part of this exploratory data analysis, we use **SQLite** to query and combine datasets and uncover patterns in community well-being, school safety, crime distribution, and poverty.
+
+### Datasets Used
+- **Socioeconomic Indicators (2008–2012)**
+Contains six public health-related socioeconomic metrics and a hardship index for each of Chicago's community areas.
+➤ Fields include: per capita income, poverty rate, unemployment rate, education level, and crowding.
+- **Chicago Public Schools (2011–2012)**
+School-level performance data including school type, safety score, and student support indicators.
+- **Chicago Crime Data (2001–present)**
+Detailed crime reports (minus the most recent 7 days) including case number, primary type, location, and community area.
+
+### Tools Used
+- SQLite (via JupyterLab SQL magic commands)
+- JupyterLab Notebook (for queries, outputs, and visuals)
+
+### Key SQL Tasks Performed
+- Counted total number of crimes recorded
+- Identified communities with per capita income < $11,000
+- Queried crimes involving minors or child victims of kidnapping
+- Listed unique crime types reported on school grounds
+- Analyzed average school safety score by school type
+- Identified top 5 communities with the highest poverty rates
+- Found the most crime-prone community area
+- Used subqueries to extract:
+  - Community with highest hardship index
+  - Community with the most crime reports
+
+### Findings & Insights
+- Riverdale and Fuller Park have the lowest per capita incomes: $8,201 and $10,432, respectively.
+- Austin is the most crime-prone area based on reported incident count.
+- Schools experienced crimes such as battery, criminal damage, narcotics violations, and assault.
+- High schools generally have better safety scores than elementary and middle schools.
+- The community with the highest hardship index is Riverdale.
+- Poverty is heavily concentrated in five specific community areas — all with over 40% of households below the poverty line.
+
+### Takeaways
+This analysis provides a data-driven snapshot of inequality and public safety across Chicago. By combining multiple datasets with structured queries, we uncovered relationships between **income, crime, and education**, helping stakeholders and policymakers focus their efforts on the most vulnerable communities
+
+
+
+
+
+
+
 
 1. Socioeconomic Indicators in Chicago: This dataset contains a selection of six socioeconomic indicators of public health significance and a “hardship index,” for each Chicago community area, for the years 2008 – 2012.
 * [Census Data](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
@@ -15,27 +58,5 @@ Explore historical data, including census, public schools and crime data, to und
 * [Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 
 
-### Tools
-* JupyterLab notebook
-* SQLite
-
-### Exploratory Data Analysis
-- Find the total number of crimes recorded in the CRIME table.
-- List community area names and numbers with per capita income less than 11000.
-- List all case numbers for crimes involving minors?(children are not considered minors for the purposes of crime analysis)
-- List all kidnapping crimes involving a child?
-- List the kind of crimes that were recorded at schools. (No repetitions)
-- List the type of schools along with the average safety score for each type.
-- List 5 community areas with highest % of households below poverty line
-- Which community area is most crime prone? Display the coumminty area number only.
-- Use a sub-query to find the name of the community area with highest hardship index
-- Use a sub-query to determine the Community Area Name with most number of crimes?
 
 <img width="992" alt="Screenshot 2024-08-26 at 10 29 30" src="https://github.com/user-attachments/assets/3ecf14ab-bca1-46f9-ad7a-f94f9ba3db1f">
-
-### Results/Findings
-- Riverdale and Fuller Park are among the communities with the lowest per capita income: $8,201 and $10,432 respectively.
-- High school are generally safer than middle and even elementary schools.
-- Types of crimes committed on school grounds: battery, criminal damage, narcotics, assault, criminal trespass, public peace violation.
-- Riverdale has the highest hardship score of all the communities in Chicago. 
-- Austin is the most crime prone community.
